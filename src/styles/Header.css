@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 95%;
+    padding: 0;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoheader {
+    width: 300px;
+    padding-top: 30px;
+}
+
+.nav-item {
+    border: none;
+    border-top: 1px solid rgb(195, 195, 195);
+    border-bottom: 1px solid rgb(195, 195, 195);
+    width: 50%;
+    padding: 0;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
+
+.nav-item li a {
+    color: black;
+}
+
+.nav-dropdown {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}

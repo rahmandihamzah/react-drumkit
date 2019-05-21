@@ -1,17 +1,17 @@
 import React from 'react';
-import Header from '../components/Header';
+import Header from '../../components/Header';
 
-class Products extends React.Component {
+class Cymbals extends React.Component {
     render() {
         return (
             <div className="container">
                 <Header />
                 <div className="content">
-                    Ini halaman product
+                    Halaman Cymbals
                 </div>
             </div>
         )
     }
 }
 
-export default Products;
+export default Cymbals;
