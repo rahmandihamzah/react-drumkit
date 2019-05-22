@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 class DetailProduct extends React.Component {
     render() {
@@ -7,7 +8,8 @@ class DetailProduct extends React.Component {
             <div>
                 <Header />
                 Ini halaman detail product
-        </div>
+                <Footer />
+            </div>
         )
 
     }

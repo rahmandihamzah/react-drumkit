@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import axios from 'axios';
 import '../../styles/Display.css';
 
@@ -37,6 +38,7 @@ class Snaredrums extends React.Component {
                         )
                     })}
                 </div>
+                <Footer />
             </div>
         )
     }
