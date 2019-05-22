@@ -1,0 +1,24 @@
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-display {
+    max-width: 260px;
+    max-height: 260px;
+}
+
+.display-container {
+    max-width: 260px;
+    margin: 5px;
+}
+
+.display-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.display-container ul .item-price {
+    color: rgb(141, 140, 138);
+}

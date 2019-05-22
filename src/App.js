@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Products from './pages/Products';
 import DetailProduct from './pages/DetailProduct';
 import Drumkits from './pages/products/Drumkits';
-import Snaredrums from './pages/products/SnareDrums';
+import Snaredrums from './pages/products/Snaredrums';
 import Cymbals from './pages/products/Cymbals';
 import Drumsticks from './pages/products/Drumsticks';
 import Drumheads from './pages/products/Drumheads';
