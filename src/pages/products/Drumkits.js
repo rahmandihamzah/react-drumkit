@@ -13,10 +13,11 @@ class Drumkits extends React.Component {
     }
 
     componentDidMount() {
-        axios.get('https://jsonplaceholder.typicode.com/photos').then((hasil) => {
-            // console.log(hasil.data.slice(0, 10))
+        // http://192.168.2.11:3000/v1/products
+        axios.get('http://192.168.2.11:3000/v1/products').then((hasil) => {
+            // console.log(hasil.data)
             this.setState({
-                dataDrumkits: hasil.data.slice(0, 12)
+                dataDrumkits: hasil.data.products
             })
         })
     }
@@ -29,10 +30,10 @@ class Drumkits extends React.Component {
                     {this.state.dataDrumkits.map((res, i) => {
                         return (
                             <div className="display-container">
-                                <img className="image-display" src={res.url} />
+                                <img className="image-display" src={res.imagePath} />
                                 <ul>
-                                    <li className="item-title">{res.title}</li>
-                                    <li className="item-price">{res.id}</li>
+                                    <li className="item-title">{res.productName}</li>
+                                    <li className="item-price">{res.price}</li>
                                 </ul>
                             </div>
                         )
